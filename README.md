@@ -1,29 +1,12 @@
 # vue-issue
 
-This template should help get you started developing with Vue 3 in Vite.
+1. 组件拥有数组类型的属性
+2. 给组件传递一个静态数组的值
+3. 在同组件内触发任意的 data 中的值
 
-## Recommended IDE Setup
+#### 问题
+组件的 watch 会被触发
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+#### 预期
+不应该触发watch
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
